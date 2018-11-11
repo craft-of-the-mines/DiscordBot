@@ -8,10 +8,10 @@ let missingConfig: () -> Never = {
     """)
     #if DEBUG
     print("""
-    When running in debug: the target contains a copy build phase which
-    copies a config.json file at $(SRCROOT)/Sources/DuetBot. Make sure
-    that the Products directory for this target (somewhere in your
-    DerivedData) contains this file.
+    When running in debug from Xcode: the target contains a copy build
+    phase which copies a config.json file. Make sure that the phase has a
+    valid reference to a config.json file and that the Products directory
+    for this target (somewhere in your DerivedData) contains this file.
     """)
     #endif
     exit(1)
