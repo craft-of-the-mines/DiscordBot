@@ -24,6 +24,6 @@ guard let config = FileManager.default
 Bot(token: config.token, routines:
     PingRoutine(),
     PongRoutine(),
-    InsultRoutine(ignoring: [])
-)
-    .start()
+    InsultRoutine(ignoring: []),
+    MinecraftMessageRoutine(config.minecraftServer, config.minecraftPort, config.minecraftPassword)
+).start()

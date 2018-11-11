@@ -10,18 +10,18 @@ import Sword
 
 // NOTE: If there are more ways to reply than just with a message, turn
 // reply into a real type and return that instead.
-typealias Reply = String
+typealias Reply = String?
 
 struct Command {
-    
+
     let pattern: String
     let arguments: [String]
     private let message: Message
-    
+
     var sender: User? {
         return message.author
     }
-    
+
     init?(_ message: Message) {
         self.message = message
         guard message.content.hasPrefix("!") else { return nil }
@@ -30,9 +30,11 @@ struct Command {
         pattern = components[0].lowercased()
         arguments = Array(components.dropFirst())
     }
-    
+
     func respond(reply: Reply) {
+      if let reply = reply {
         message.reply(with: reply)
+      }
     }
-    
+
 }

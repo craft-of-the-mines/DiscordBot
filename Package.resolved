@@ -2,21 +2,84 @@
   "object": {
     "pins": [
       {
-        "package": "SSCommonCrypto",
-        "repositoryURL": "https://github.com/Azoy/common-crypto-spm.git",
+        "package": "Bits",
+        "repositoryURL": "https://github.com/vapor/bits.git",
         "state": {
           "branch": null,
-          "revision": "7e9904a0d0c0024a86ab6fe5698ffc8f7799efb4",
+          "revision": "03079476b04139a8b744ad96f975176df5ae12bc",
+          "version": "1.1.1"
+        }
+      },
+      {
+        "package": "Core",
+        "repositoryURL": "https://github.com/vapor/core.git",
+        "state": {
+          "branch": null,
+          "revision": "aa15871311b497a24a7f0e96b1ae6865dd600818",
+          "version": "2.2.1"
+        }
+      },
+      {
+        "package": "Crypto",
+        "repositoryURL": "https://github.com/vapor/crypto.git",
+        "state": {
+          "branch": null,
+          "revision": "95e96b4d8e5c81da850db512a2fde167548f9094",
+          "version": "2.1.3"
+        }
+      },
+      {
+        "package": "CTLS",
+        "repositoryURL": "https://github.com/vapor/ctls.git",
+        "state": {
+          "branch": null,
+          "revision": "fba1297f4986a4dac8b02f7ac4e84a77fd492e4c",
+          "version": "1.1.3"
+        }
+      },
+      {
+        "package": "Debugging",
+        "repositoryURL": "https://github.com/vapor/debugging.git",
+        "state": {
+          "branch": null,
+          "revision": "fc5a27d6eb236141dc24e5f14eedaa2e035ae7b3",
+          "version": "1.1.1"
+        }
+      },
+      {
+        "package": "Engine",
+        "repositoryURL": "https://github.com/vapor/engine.git",
+        "state": {
+          "branch": null,
+          "revision": "e44822c7516676d8bcb0141a6e248a88847b110c",
+          "version": "2.2.5"
+        }
+      },
+      {
+        "package": "Random",
+        "repositoryURL": "https://github.com/vapor/random.git",
+        "state": {
+          "branch": null,
+          "revision": "d7c4397d125caba795d14d956efacfe2a27a63d0",
           "version": "1.2.0"
         }
       },
       {
-        "package": "Starscream",
-        "repositoryURL": "https://github.com/Azoy/Starscream.git",
+        "package": "Raptor",
+        "repositoryURL": "https://github.com/craft-of-the-mines/Raptor",
+        "state": {
+          "branch": "master",
+          "revision": "0d104ee75ad0d512b5e48964f9e63514e68d5a55",
+          "version": null
+        }
+      },
+      {
+        "package": "Sockets",
+        "repositoryURL": "https://github.com/vapor/sockets.git",
         "state": {
           "branch": null,
-          "revision": "a21fca8e9dc83cf3a88a3ba9be15ff17a7e4e8d6",
-          "version": "3.0.5"
+          "revision": "79fc180cdcb451dbbb01b1156be36720adde80e0",
+          "version": "2.2.3"
         }
       },
       {
@@ -24,17 +87,17 @@
         "repositoryURL": "https://github.com/Azoy/Sword",
         "state": {
           "branch": "master",
-          "revision": "78155da5bcd1ccfb6218a6d4f85ab8d712cf690e",
+          "revision": "5af647f43db50af2211f5fbaccfa6513ced12dfa",
           "version": null
         }
       },
       {
-        "package": "SSCZLib",
-        "repositoryURL": "https://github.com/Azoy/zlib-spm.git",
+        "package": "TLS",
+        "repositoryURL": "https://github.com/vapor/tls.git",
         "state": {
           "branch": null,
-          "revision": "f92fc0658af4cd9b11f233e9c02786ecbf75f1ee",
-          "version": "1.2.0"
+          "revision": "a5981b0a370f227521330beb92b7ce6d636a1eb2",
+          "version": "2.1.3"
         }
       }
     ]
