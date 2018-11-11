@@ -27,7 +27,7 @@ struct Command {
         guard message.content.hasPrefix("!") else { return nil }
         let components = message.content.dropFirst().components(separatedBy: " ")
         guard components.count > 0 else { return nil }
-        pattern = components[0]
+        pattern = components[0].lowercased()
         arguments = Array(components.dropFirst())
     }
     

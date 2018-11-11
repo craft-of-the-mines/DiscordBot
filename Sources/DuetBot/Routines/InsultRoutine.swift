@@ -8,15 +8,6 @@
 import Sword
 import Foundation
 
-extension Snowflake {
-    
-    init?(_ string: String) {
-        guard let snowflake = UInt64(string.dropFirst(2).dropLast()) else { return nil }
-        self.init(snowflake)
-    }
-    
-}
-
 class InsultRoutine: Preprocessor {
     
     static var patterns: [String] {
