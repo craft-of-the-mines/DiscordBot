@@ -26,21 +26,24 @@ class MinecraftMessageRoutine: Routine {
     }
 
     func observe(arguments: [String]) -> Reply {
-      let serverC = ip.cString(using: String.defaultCStringEncoding)!
-      let newServer = NSString(bytes: serverC, length: Int(ip.characters.count), encoding:String.Encoding.ascii.rawValue)! as String
-      let serverPointer = UnsafeMutablePointer<Int8>(newServer)
-      let passwordC = password.cString(using: String.defaultCStringEncoding)!
-      let newPassword = NSString(bytes: passwordC, length: Int(password.characters.count), encoding:String.Encoding.ascii.rawValue)! as String
-      let passwordPointer = UnsafeMutablePointer<Int8>(newPassword)
+      print(ip)
+      print(port)
+      print(password)
+      let serverC = stringToUnsafeMutablePointer(message: ip)
+      let passwordC = stringToUnsafeMutablePointer(message: password)
       let message = "tellraw @a [{\"color\": \"white\", \"text\": \"Hi\"}]"
-      let messageC = message.cString(using: String.defaultCStringEncoding)!
-      let newMessage = NSString(bytes: messageC, length: Int(message.characters.count), encoding:String.Encoding.ascii.rawValue)! as String
-      let messagePointer = UnsafeMutablePointer<Int8>(newMessage)
-      let raptor = srcon_create(serverPointer, 25575, passwordPointer)
-      srcon_send(raptor, messagePointer)
+      let messageC = stringToUnsafeMutablePointer(message: message)
+      let raptor = srcon_create(serverC, 25575, passwordC)
+      srcon_send(raptor, messageC, 2)
       return nil
     }
 
+    func stringToUnsafeMutablePointer(message: String) -> UnsafeMutablePointer<Int8> {
+        var messageCString = message.utf8CString
+        return messageCString.withUnsafeMutableBytes { mesUMRBP in
+            return mesUMRBP.baseAddress!.bindMemory(to: Int8.self, capacity: mesUMRBP.count)
+        }
 
+    }
 
 }
