@@ -24,6 +24,7 @@ guard let config = FileManager.default
 Bot(token: config.token, routines:
     PingRoutine(),
     PongRoutine(),
-    InsultRoutine(ignoring: [])
+    InsultRoutine(ignoring: []),
+    LanguageRoutine()
 )
     .start()

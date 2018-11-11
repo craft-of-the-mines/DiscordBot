@@ -36,7 +36,7 @@ class InsultRoutine: Preprocessor {
     }
     
     func intercept(_ command: Command) -> Reply {
-        return "Hey, screw you\(command.sender?.username.map { " \($0)" } ?? "")!"
+        return "Hey, \(DBString("insult-routine-keyword")) you\(command.sender?.username.map { " \($0)" } ?? "")!"
     }
     
     func observe(arguments: [String]) -> Reply {

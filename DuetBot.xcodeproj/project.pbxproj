@@ -29,6 +29,11 @@
 		946F7D912197A64B00A2A1D3 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946F7D902197A64B00A2A1D3 /* Config.swift */; };
 		946F7D932197A7B000A2A1D3 /* config.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 946F7D8F2197A62200A2A1D3 /* config.json */; };
 		946F7D992197B20C00A2A1D3 /* Snowflake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946F7D982197B20C00A2A1D3 /* Snowflake.swift */; };
+		946F7DA32197CCBB00A2A1D3 /* LanguageRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946F7DA22197CCBB00A2A1D3 /* LanguageRoutine.swift */; };
+		946F7DA52197D11F00A2A1D3 /* tame.plist in Resources */ = {isa = PBXBuildFile; fileRef = 946F7DA42197D11F00A2A1D3 /* tame.plist */; };
+		946F7DA72197D14700A2A1D3 /* rude.plist in Resources */ = {isa = PBXBuildFile; fileRef = 946F7DA62197D14700A2A1D3 /* rude.plist */; };
+		946F7DA82197DC8F00A2A1D3 /* tame.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 946F7DA42197D11F00A2A1D3 /* tame.plist */; };
+		946F7DA92197DC8F00A2A1D3 /* rude.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 946F7DA62197D14700A2A1D3 /* rude.plist */; };
 		OBJ_105 /* DuetBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* DuetBotTests.swift */; };
 		OBJ_106 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
 		OBJ_108 /* Sword.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Sword::Sword::Product" /* Sword.framework */; };
@@ -147,6 +152,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
+				946F7DA82197DC8F00A2A1D3 /* tame.plist in CopyFiles */,
+				946F7DA92197DC8F00A2A1D3 /* rude.plist in CopyFiles */,
 				946F7D932197A7B000A2A1D3 /* config.json in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -163,6 +170,9 @@
 		946F7D902197A64B00A2A1D3 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		946F7D982197B20C00A2A1D3 /* Snowflake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snowflake.swift; sourceTree = "<group>"; };
 		946F7D9A2197B23100A2A1D3 /* config.json.example */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.json.example; sourceTree = "<group>"; };
+		946F7DA22197CCBB00A2A1D3 /* LanguageRoutine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageRoutine.swift; sourceTree = "<group>"; };
+		946F7DA42197D11F00A2A1D3 /* tame.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = tame.plist; sourceTree = "<group>"; };
+		946F7DA62197D14700A2A1D3 /* rude.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = rude.plist; sourceTree = "<group>"; };
 		"DuetBot::DuetBot::Product" /* DuetBot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = DuetBot; sourceTree = BUILT_PRODUCTS_DIR; };
 		"DuetBot::DuetBotTests::Product" /* DuetBotTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = DuetBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_12 /* DuetBotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuetBotTests.swift; sourceTree = "<group>"; };
@@ -264,6 +274,7 @@
 				946F7D8721979BDB00A2A1D3 /* Routine.swift */,
 				946F7D8B21979C1400A2A1D3 /* PingPongRoutine.swift */,
 				946F7D8D21979D4E00A2A1D3 /* InsultRoutine.swift */,
+				946F7DA22197CCBB00A2A1D3 /* LanguageRoutine.swift */,
 			);
 			path = Routines;
 			sourceTree = "<group>";
@@ -292,6 +303,15 @@
 				946F7D982197B20C00A2A1D3 /* Snowflake.swift */,
 			);
 			path = Sword;
+			sourceTree = "<group>";
+		};
+		946F7D9B2197C82500A2A1D3 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				946F7DA42197D11F00A2A1D3 /* tame.plist */,
+				946F7DA62197D14700A2A1D3 /* rude.plist */,
+			);
+			path = Strings;
 			sourceTree = "<group>";
 		};
 		OBJ_10 /* Tests */ = {
@@ -406,9 +426,10 @@
 			path = Types;
 			sourceTree = "<group>";
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
+				946F7D9B2197C82500A2A1D3 /* Strings */,
 				946F7D8F2197A62200A2A1D3 /* config.json */,
 				946F7D9A2197B23100A2A1D3 /* config.json.example */,
 				OBJ_6 /* Package.swift */,
@@ -417,7 +438,6 @@
 				OBJ_14 /* Dependencies */,
 				OBJ_71 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_56 /* Utils */ = {
@@ -488,6 +508,7 @@
 				OBJ_80 /* Sources */,
 				OBJ_82 /* Frameworks */,
 				946F7D922197A7A800A2A1D3 /* CopyFiles */,
+				946F7D9E2197CB7000A2A1D3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -609,7 +630,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_71 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -625,6 +646,18 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		946F7D9E2197CB7000A2A1D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946F7DA72197D14700A2A1D3 /* rude.plist in Resources */,
+				946F7DA52197D11F00A2A1D3 /* tame.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		OBJ_104 /* Sources */ = {
@@ -722,6 +755,7 @@
 				946F7D912197A64B00A2A1D3 /* Config.swift in Sources */,
 				946F7D992197B20C00A2A1D3 /* Snowflake.swift in Sources */,
 				946F7D842197976F00A2A1D3 /* Command.swift in Sources */,
+				946F7DA32197CCBB00A2A1D3 /* LanguageRoutine.swift in Sources */,
 				946F7D8C21979C1400A2A1D3 /* PingPongRoutine.swift in Sources */,
 				946F7D8E21979D4E00A2A1D3 /* InsultRoutine.swift in Sources */,
 			);
