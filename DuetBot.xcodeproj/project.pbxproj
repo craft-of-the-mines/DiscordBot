@@ -9,11 +9,11 @@
 /* Begin PBXAggregateTarget section */
 		"DuetBot::DuetBotPackageTests::ProductTarget" /* DuetBotPackageTests */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_96 /* Build configuration list for PBXAggregateTarget "DuetBotPackageTests" */;
+			buildConfigurationList = OBJ_128 /* Build configuration list for PBXAggregateTarget "DuetBotPackageTests" */;
 			buildPhases = (
 			);
 			dependencies = (
-				OBJ_99 /* PBXTargetDependency */,
+				OBJ_131 /* PBXTargetDependency */,
 			);
 			name = DuetBotPackageTests;
 			productName = DuetBotPackageTests;
@@ -21,117 +21,136 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		946F7D842197976F00A2A1D3 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946F7D832197976F00A2A1D3 /* Command.swift */; };
-		946F7D862197978300A2A1D3 /* Bot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946F7D852197978300A2A1D3 /* Bot.swift */; };
-		946F7D8821979BDB00A2A1D3 /* Routine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946F7D8721979BDB00A2A1D3 /* Routine.swift */; };
-		946F7D8C21979C1400A2A1D3 /* PingPongRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946F7D8B21979C1400A2A1D3 /* PingPongRoutine.swift */; };
-		946F7D8E21979D4E00A2A1D3 /* InsultRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946F7D8D21979D4E00A2A1D3 /* InsultRoutine.swift */; };
-		946F7D912197A64B00A2A1D3 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946F7D902197A64B00A2A1D3 /* Config.swift */; };
-		946F7D932197A7B000A2A1D3 /* config.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 946F7D8F2197A62200A2A1D3 /* config.json */; };
-		946F7D992197B20C00A2A1D3 /* Snowflake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946F7D982197B20C00A2A1D3 /* Snowflake.swift */; };
-		OBJ_105 /* DuetBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* DuetBotTests.swift */; };
-		OBJ_106 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
-		OBJ_108 /* Sword.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Sword::Sword::Product" /* Sword.framework */; };
-		OBJ_109 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Starscream::Starscream::Product" /* Starscream.framework */; };
-		OBJ_117 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* Compression.swift */; };
-		OBJ_118 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* SSLSecurity.swift */; };
-		OBJ_119 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* WebSocket.swift */; };
-		OBJ_126 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* Package.swift */; };
-		OBJ_131 /* EventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* EventHandler.swift */; };
-		OBJ_132 /* Eventable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Eventable.swift */; };
-		OBJ_133 /* Gateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Gateway.swift */; };
-		OBJ_134 /* GatewayHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* GatewayHandler.swift */; };
-		OBJ_135 /* Heartbeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Heartbeat.swift */; };
-		OBJ_136 /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Payload.swift */; };
-		OBJ_137 /* Shard.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Shard.swift */; };
-		OBJ_138 /* ShardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* ShardManager.swift */; };
-		OBJ_139 /* EndpointInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* EndpointInfo.swift */; };
-		OBJ_140 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Endpoints.swift */; };
-		OBJ_141 /* MultipartBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* MultipartBody.swift */; };
-		OBJ_142 /* RateLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* RateLimit.swift */; };
-		OBJ_143 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Request.swift */; };
-		OBJ_144 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* Command.swift */; };
-		OBJ_145 /* Permissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* Permissions.swift */; };
-		OBJ_146 /* Shield.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* Shield.swift */; };
-		OBJ_147 /* Sword.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* Sword.swift */; };
-		OBJ_148 /* AuditLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* AuditLog.swift */; };
-		OBJ_149 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* Channel.swift */; };
-		OBJ_150 /* DM.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* DM.swift */; };
-		OBJ_151 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Emoji.swift */; };
-		OBJ_152 /* GroupDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* GroupDM.swift */; };
-		OBJ_153 /* Guild.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Guild.swift */; };
-		OBJ_154 /* GuildCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* GuildCategory.swift */; };
-		OBJ_155 /* GuildText.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* GuildText.swift */; };
-		OBJ_156 /* GuildVoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* GuildVoice.swift */; };
-		OBJ_157 /* Invite.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Invite.swift */; };
-		OBJ_158 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* Member.swift */; };
-		OBJ_159 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* Message.swift */; };
-		OBJ_160 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* Options.swift */; };
-		OBJ_161 /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* Role.swift */; };
-		OBJ_162 /* Snowflake.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* Snowflake.swift */; };
-		OBJ_163 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* User.swift */; };
-		OBJ_164 /* VoiceState.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* VoiceState.swift */; };
-		OBJ_165 /* Webhook.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* Webhook.swift */; };
-		OBJ_166 /* Bucket.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* Bucket.swift */; };
-		OBJ_167 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* Enums.swift */; };
-		OBJ_168 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* Error.swift */; };
-		OBJ_169 /* Imageable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* Imageable.swift */; };
-		OBJ_170 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* JSON.swift */; };
-		OBJ_171 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* Log.swift */; };
-		OBJ_172 /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* Updatable.swift */; };
-		OBJ_173 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* Utils.swift */; };
-		OBJ_175 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Starscream::Starscream::Product" /* Starscream.framework */; };
-		OBJ_182 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* Package.swift */; };
-		OBJ_81 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* main.swift */; };
-		OBJ_83 /* Sword.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Sword::Sword::Product" /* Sword.framework */; };
-		OBJ_84 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Starscream::Starscream::Product" /* Starscream.framework */; };
-		OBJ_94 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_102 /* Bot.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Bot.swift */; };
+		OBJ_103 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Command.swift */; };
+		OBJ_104 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Config.swift */; };
+		OBJ_105 /* Snowflake.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Snowflake.swift */; };
+		OBJ_106 /* InsultRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* InsultRoutine.swift */; };
+		OBJ_107 /* MinecraftMessageRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* MinecraftMessageRoutine.swift */; };
+		OBJ_108 /* PingPongRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* PingPongRoutine.swift */; };
+		OBJ_109 /* Routine.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Routine.swift */; };
+		OBJ_110 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* main.swift */; };
+		OBJ_112 /* Raptor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Raptor::Raptor::Product" /* Raptor.framework */; };
+		OBJ_113 /* Sword.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Sword::Sword::Product" /* Sword.framework */; };
+		OBJ_114 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Starscream::Starscream::Product" /* Starscream.framework */; };
+		OBJ_126 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_137 /* DuetBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* DuetBotTests.swift */; };
+		OBJ_138 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* XCTestManifests.swift */; };
+		OBJ_140 /* Raptor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Raptor::Raptor::Product" /* Raptor.framework */; };
+		OBJ_141 /* Sword.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Sword::Sword::Product" /* Sword.framework */; };
+		OBJ_142 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Starscream::Starscream::Product" /* Starscream.framework */; };
+		OBJ_151 /* srcon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* srcon.cpp */; };
+		OBJ_152 /* umbrella.cpp in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* umbrella.cpp */; };
+		OBJ_159 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Package.swift */; };
+		OBJ_164 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_88 /* Compression.swift */; };
+		OBJ_165 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_89 /* SSLSecurity.swift */; };
+		OBJ_166 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_90 /* WebSocket.swift */; };
+		OBJ_173 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_87 /* Package.swift */; };
+		OBJ_178 /* EventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* EventHandler.swift */; };
+		OBJ_179 /* Eventable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* Eventable.swift */; };
+		OBJ_180 /* Gateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* Gateway.swift */; };
+		OBJ_181 /* GatewayHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* GatewayHandler.swift */; };
+		OBJ_182 /* Heartbeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* Heartbeat.swift */; };
+		OBJ_183 /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Payload.swift */; };
+		OBJ_184 /* Shard.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* Shard.swift */; };
+		OBJ_185 /* ShardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* ShardManager.swift */; };
+		OBJ_186 /* EndpointInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* EndpointInfo.swift */; };
+		OBJ_187 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* Endpoints.swift */; };
+		OBJ_188 /* MultipartBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* MultipartBody.swift */; };
+		OBJ_189 /* RateLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* RateLimit.swift */; };
+		OBJ_190 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* Request.swift */; };
+		OBJ_191 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* Command.swift */; };
+		OBJ_192 /* Permissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* Permissions.swift */; };
+		OBJ_193 /* Shield.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* Shield.swift */; };
+		OBJ_194 /* Sword.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* Sword.swift */; };
+		OBJ_195 /* AuditLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* AuditLog.swift */; };
+		OBJ_196 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* Channel.swift */; };
+		OBJ_197 /* DM.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* DM.swift */; };
+		OBJ_198 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* Emoji.swift */; };
+		OBJ_199 /* GroupDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* GroupDM.swift */; };
+		OBJ_200 /* Guild.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* Guild.swift */; };
+		OBJ_201 /* GuildCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* GuildCategory.swift */; };
+		OBJ_202 /* GuildText.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* GuildText.swift */; };
+		OBJ_203 /* GuildVoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* GuildVoice.swift */; };
+		OBJ_204 /* Invite.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* Invite.swift */; };
+		OBJ_205 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* Member.swift */; };
+		OBJ_206 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* Message.swift */; };
+		OBJ_207 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* Options.swift */; };
+		OBJ_208 /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* Role.swift */; };
+		OBJ_209 /* Snowflake.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* Snowflake.swift */; };
+		OBJ_210 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* User.swift */; };
+		OBJ_211 /* VoiceState.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* VoiceState.swift */; };
+		OBJ_212 /* Webhook.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_75 /* Webhook.swift */; };
+		OBJ_213 /* Bucket.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_77 /* Bucket.swift */; };
+		OBJ_214 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_78 /* Enums.swift */; };
+		OBJ_215 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_79 /* Error.swift */; };
+		OBJ_216 /* Imageable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_80 /* Imageable.swift */; };
+		OBJ_217 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_81 /* JSON.swift */; };
+		OBJ_218 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_82 /* Log.swift */; };
+		OBJ_219 /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_83 /* Updatable.swift */; };
+		OBJ_220 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_84 /* Utils.swift */; };
+		OBJ_222 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Starscream::Starscream::Product" /* Starscream.framework */; };
+		OBJ_229 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_85 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		946F7D7C2197976600A2A1D3 /* PBXContainerItemProxy */ = {
+		946F7E3B2198117700A2A1D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Starscream::Starscream";
 			remoteInfo = Starscream;
 		};
-		946F7D7D2197976600A2A1D3 /* PBXContainerItemProxy */ = {
+		946F7E3C2198117700A2A1D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Raptor::Raptor";
+			remoteInfo = Raptor;
+		};
+		946F7E3D2198117700A2A1D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Sword::Sword";
 			remoteInfo = Sword;
 		};
-		946F7D7E2197976600A2A1D3 /* PBXContainerItemProxy */ = {
+		946F7E3E2198117700A2A1D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Starscream::Starscream";
 			remoteInfo = Starscream;
 		};
-		946F7D7F2197976600A2A1D3 /* PBXContainerItemProxy */ = {
+		946F7E3F2198117700A2A1D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "DuetBot::DuetBot";
 			remoteInfo = DuetBot;
 		};
-		946F7D802197976600A2A1D3 /* PBXContainerItemProxy */ = {
+		946F7E402198117700A2A1D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Raptor::Raptor";
+			remoteInfo = Raptor;
+		};
+		946F7E412198117700A2A1D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Sword::Sword";
 			remoteInfo = Sword;
 		};
-		946F7D812197976600A2A1D3 /* PBXContainerItemProxy */ = {
+		946F7E422198117700A2A1D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Starscream::Starscream";
 			remoteInfo = Starscream;
 		};
-		946F7D822197976600A2A1D3 /* PBXContainerItemProxy */ = {
+		946F7E432198117800A2A1D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -140,312 +159,305 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		946F7D922197A7A800A2A1D3 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 7;
-			files = (
-				946F7D932197A7B000A2A1D3 /* config.json in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		946F7D832197976F00A2A1D3 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
-		946F7D852197978300A2A1D3 /* Bot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bot.swift; sourceTree = "<group>"; };
-		946F7D8721979BDB00A2A1D3 /* Routine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routine.swift; sourceTree = "<group>"; };
-		946F7D8B21979C1400A2A1D3 /* PingPongRoutine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingPongRoutine.swift; sourceTree = "<group>"; };
-		946F7D8D21979D4E00A2A1D3 /* InsultRoutine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsultRoutine.swift; sourceTree = "<group>"; };
-		946F7D8F2197A62200A2A1D3 /* config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
-		946F7D902197A64B00A2A1D3 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
-		946F7D982197B20C00A2A1D3 /* Snowflake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snowflake.swift; sourceTree = "<group>"; };
-		946F7D9A2197B23100A2A1D3 /* config.json.example */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.json.example; sourceTree = "<group>"; };
-		"DuetBot::DuetBot::Product" /* DuetBot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = DuetBot; sourceTree = BUILT_PRODUCTS_DIR; };
+		"DuetBot::DuetBot::Product" /* DuetBot */ = {isa = PBXFileReference; lastKnownFileType = text; path = DuetBot; sourceTree = BUILT_PRODUCTS_DIR; };
 		"DuetBot::DuetBotTests::Product" /* DuetBotTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = DuetBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_12 /* DuetBotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuetBotTests.swift; sourceTree = "<group>"; };
-		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
-		OBJ_18 /* EventHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventHandler.swift; sourceTree = "<group>"; };
-		OBJ_19 /* Eventable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eventable.swift; sourceTree = "<group>"; };
-		OBJ_20 /* Gateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gateway.swift; sourceTree = "<group>"; };
-		OBJ_21 /* GatewayHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatewayHandler.swift; sourceTree = "<group>"; };
-		OBJ_22 /* Heartbeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heartbeat.swift; sourceTree = "<group>"; };
-		OBJ_23 /* Payload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload.swift; sourceTree = "<group>"; };
-		OBJ_24 /* Shard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shard.swift; sourceTree = "<group>"; };
-		OBJ_25 /* ShardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShardManager.swift; sourceTree = "<group>"; };
-		OBJ_27 /* EndpointInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointInfo.swift; sourceTree = "<group>"; };
-		OBJ_28 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
-		OBJ_29 /* MultipartBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartBody.swift; sourceTree = "<group>"; };
-		OBJ_30 /* RateLimit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateLimit.swift; sourceTree = "<group>"; };
-		OBJ_31 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
-		OBJ_33 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
-		OBJ_34 /* Permissions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permissions.swift; sourceTree = "<group>"; };
-		OBJ_35 /* Shield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shield.swift; sourceTree = "<group>"; };
-		OBJ_36 /* Sword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sword.swift; sourceTree = "<group>"; };
-		OBJ_38 /* AuditLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditLog.swift; sourceTree = "<group>"; };
-		OBJ_39 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
-		OBJ_40 /* DM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DM.swift; sourceTree = "<group>"; };
-		OBJ_41 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
-		OBJ_42 /* GroupDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDM.swift; sourceTree = "<group>"; };
-		OBJ_43 /* Guild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guild.swift; sourceTree = "<group>"; };
-		OBJ_44 /* GuildCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuildCategory.swift; sourceTree = "<group>"; };
-		OBJ_45 /* GuildText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuildText.swift; sourceTree = "<group>"; };
-		OBJ_46 /* GuildVoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuildVoice.swift; sourceTree = "<group>"; };
-		OBJ_47 /* Invite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invite.swift; sourceTree = "<group>"; };
-		OBJ_48 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
-		OBJ_49 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
-		OBJ_50 /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
-		OBJ_51 /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
-		OBJ_52 /* Snowflake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snowflake.swift; sourceTree = "<group>"; };
-		OBJ_53 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		OBJ_54 /* VoiceState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceState.swift; sourceTree = "<group>"; };
-		OBJ_55 /* Webhook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webhook.swift; sourceTree = "<group>"; };
-		OBJ_57 /* Bucket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bucket.swift; sourceTree = "<group>"; };
-		OBJ_58 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
-		OBJ_59 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		OBJ_10 /* Bot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bot.swift; sourceTree = "<group>"; };
+		OBJ_11 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		OBJ_12 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		OBJ_15 /* Snowflake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snowflake.swift; sourceTree = "<group>"; };
+		OBJ_17 /* InsultRoutine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsultRoutine.swift; sourceTree = "<group>"; };
+		OBJ_18 /* MinecraftMessageRoutine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinecraftMessageRoutine.swift; sourceTree = "<group>"; };
+		OBJ_19 /* PingPongRoutine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingPongRoutine.swift; sourceTree = "<group>"; };
+		OBJ_20 /* Routine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routine.swift; sourceTree = "<group>"; };
+		OBJ_21 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_24 /* DuetBotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuetBotTests.swift; sourceTree = "<group>"; };
+		OBJ_25 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_28 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/ryan/dev/discordbot/.build/checkouts/Raptor--6116708156360983641/Package.swift"; sourceTree = "<group>"; };
+		OBJ_30 /* srcon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = srcon.cpp; sourceTree = "<group>"; };
+		OBJ_31 /* umbrella.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = umbrella.cpp; sourceTree = "<group>"; };
+		OBJ_33 /* umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = umbrella.h; sourceTree = "<group>"; };
+		OBJ_34 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = /Users/ryan/dev/discordbot/DuetBot.xcodeproj/GeneratedModuleMap/Raptor/module.modulemap; sourceTree = "<group>"; };
+		OBJ_38 /* EventHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventHandler.swift; sourceTree = "<group>"; };
+		OBJ_39 /* Eventable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eventable.swift; sourceTree = "<group>"; };
+		OBJ_40 /* Gateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gateway.swift; sourceTree = "<group>"; };
+		OBJ_41 /* GatewayHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatewayHandler.swift; sourceTree = "<group>"; };
+		OBJ_42 /* Heartbeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heartbeat.swift; sourceTree = "<group>"; };
+		OBJ_43 /* Payload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload.swift; sourceTree = "<group>"; };
+		OBJ_44 /* Shard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shard.swift; sourceTree = "<group>"; };
+		OBJ_45 /* ShardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShardManager.swift; sourceTree = "<group>"; };
+		OBJ_47 /* EndpointInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointInfo.swift; sourceTree = "<group>"; };
+		OBJ_48 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		OBJ_49 /* MultipartBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartBody.swift; sourceTree = "<group>"; };
+		OBJ_50 /* RateLimit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateLimit.swift; sourceTree = "<group>"; };
+		OBJ_51 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		OBJ_53 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		OBJ_54 /* Permissions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permissions.swift; sourceTree = "<group>"; };
+		OBJ_55 /* Shield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shield.swift; sourceTree = "<group>"; };
+		OBJ_56 /* Sword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sword.swift; sourceTree = "<group>"; };
+		OBJ_58 /* AuditLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditLog.swift; sourceTree = "<group>"; };
+		OBJ_59 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_60 /* Imageable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imageable.swift; sourceTree = "<group>"; };
-		OBJ_61 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
-		OBJ_62 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
-		OBJ_63 /* Updatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Updatable.swift; sourceTree = "<group>"; };
-		OBJ_64 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		OBJ_65 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/ryan/dev/discordbot/.build/checkouts/Sword-1490915180762393545/Package.swift"; sourceTree = "<group>"; };
-		OBJ_67 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/ryan/dev/discordbot/.build/checkouts/Starscream.git-9054841884892542600/Package.swift"; sourceTree = "<group>"; };
-		OBJ_68 /* Compression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compression.swift; sourceTree = "<group>"; };
-		OBJ_69 /* SSLSecurity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLSecurity.swift; sourceTree = "<group>"; };
-		OBJ_70 /* WebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
-		OBJ_9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_60 /* DM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DM.swift; sourceTree = "<group>"; };
+		OBJ_61 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		OBJ_62 /* GroupDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDM.swift; sourceTree = "<group>"; };
+		OBJ_63 /* Guild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guild.swift; sourceTree = "<group>"; };
+		OBJ_64 /* GuildCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuildCategory.swift; sourceTree = "<group>"; };
+		OBJ_65 /* GuildText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuildText.swift; sourceTree = "<group>"; };
+		OBJ_66 /* GuildVoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuildVoice.swift; sourceTree = "<group>"; };
+		OBJ_67 /* Invite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invite.swift; sourceTree = "<group>"; };
+		OBJ_68 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		OBJ_69 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		OBJ_70 /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
+		OBJ_71 /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
+		OBJ_72 /* Snowflake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snowflake.swift; sourceTree = "<group>"; };
+		OBJ_73 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		OBJ_74 /* VoiceState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceState.swift; sourceTree = "<group>"; };
+		OBJ_75 /* Webhook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webhook.swift; sourceTree = "<group>"; };
+		OBJ_77 /* Bucket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bucket.swift; sourceTree = "<group>"; };
+		OBJ_78 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		OBJ_79 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		OBJ_80 /* Imageable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imageable.swift; sourceTree = "<group>"; };
+		OBJ_81 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		OBJ_82 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		OBJ_83 /* Updatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Updatable.swift; sourceTree = "<group>"; };
+		OBJ_84 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		OBJ_85 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/ryan/dev/discordbot/.build/checkouts/Sword-1490915180762393545/Package.swift"; sourceTree = "<group>"; };
+		OBJ_87 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/ryan/dev/discordbot/.build/checkouts/Starscream.git-9054841884892542600/Package.swift"; sourceTree = "<group>"; };
+		OBJ_88 /* Compression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compression.swift; sourceTree = "<group>"; };
+		OBJ_89 /* SSLSecurity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLSecurity.swift; sourceTree = "<group>"; };
+		OBJ_90 /* WebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+		"Raptor::Raptor::Product" /* Raptor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Raptor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Starscream::Starscream::Product" /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Sword::Sword::Product" /* Sword.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Sword.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_107 /* Frameworks */ = {
+		OBJ_111 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_108 /* Sword.framework in Frameworks */,
-				OBJ_109 /* Starscream.framework in Frameworks */,
+				OBJ_112 /* Raptor.framework in Frameworks */,
+				OBJ_113 /* Sword.framework in Frameworks */,
+				OBJ_114 /* Starscream.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_120 /* Frameworks */ = {
+		OBJ_139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_140 /* Raptor.framework in Frameworks */,
+				OBJ_141 /* Sword.framework in Frameworks */,
+				OBJ_142 /* Starscream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_153 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_174 /* Frameworks */ = {
+		OBJ_167 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_175 /* Starscream.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_82 /* Frameworks */ = {
+		OBJ_221 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_83 /* Sword.framework in Frameworks */,
-				OBJ_84 /* Starscream.framework in Frameworks */,
+				OBJ_222 /* Starscream.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		946F7D8921979BDE00A2A1D3 /* Routines */ = {
+		OBJ_13 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				946F7D8721979BDB00A2A1D3 /* Routine.swift */,
-				946F7D8B21979C1400A2A1D3 /* PingPongRoutine.swift */,
-				946F7D8D21979D4E00A2A1D3 /* InsultRoutine.swift */,
-			);
-			path = Routines;
-			sourceTree = "<group>";
-		};
-		946F7D8A21979BE500A2A1D3 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				946F7D852197978300A2A1D3 /* Bot.swift */,
-				946F7D832197976F00A2A1D3 /* Command.swift */,
-				946F7D902197A64B00A2A1D3 /* Config.swift */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		946F7D962197B1F700A2A1D3 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				946F7D972197B20300A2A1D3 /* Sword */,
+				OBJ_14 /* Sword */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		946F7D972197B20300A2A1D3 /* Sword */ = {
+		OBJ_14 /* Sword */ = {
 			isa = PBXGroup;
 			children = (
-				946F7D982197B20C00A2A1D3 /* Snowflake.swift */,
+				OBJ_15 /* Snowflake.swift */,
 			);
 			path = Sword;
 			sourceTree = "<group>";
 		};
-		OBJ_10 /* Tests */ = {
+		OBJ_16 /* Routines */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_11 /* DuetBotTests */,
+				OBJ_17 /* InsultRoutine.swift */,
+				OBJ_18 /* MinecraftMessageRoutine.swift */,
+				OBJ_19 /* PingPongRoutine.swift */,
+				OBJ_20 /* Routine.swift */,
+			);
+			path = Routines;
+			sourceTree = "<group>";
+		};
+		OBJ_22 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_23 /* DuetBotTests */,
 			);
 			name = Tests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_11 /* DuetBotTests */ = {
+		OBJ_23 /* DuetBotTests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_12 /* DuetBotTests.swift */,
-				OBJ_13 /* XCTestManifests.swift */,
+				OBJ_24 /* DuetBotTests.swift */,
+				OBJ_25 /* XCTestManifests.swift */,
 			);
 			name = DuetBotTests;
 			path = Tests/DuetBotTests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_14 /* Dependencies */ = {
+		OBJ_26 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_15 /* Sword */,
-				OBJ_66 /* Starscream 3.0.5 */,
+				OBJ_27 /* Raptor */,
+				OBJ_35 /* Sword */,
+				OBJ_86 /* Starscream 3.0.5 */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		OBJ_15 /* Sword */ = {
+		OBJ_27 /* Raptor */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_16 /* Sword */,
-				OBJ_65 /* Package.swift */,
+				OBJ_28 /* Package.swift */,
+				OBJ_29 /* src */,
+				OBJ_32 /* include */,
+			);
+			name = Raptor;
+			path = ".build/checkouts/Raptor--6116708156360983641/Raptor/Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_29 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_30 /* srcon.cpp */,
+				OBJ_31 /* umbrella.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		OBJ_32 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_33 /* umbrella.h */,
+				OBJ_34 /* module.modulemap */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		OBJ_35 /* Sword */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_36 /* Sword */,
+				OBJ_85 /* Package.swift */,
 			);
 			name = Sword;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_16 /* Sword */ = {
+		OBJ_36 /* Sword */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_17 /* Gateway */,
-				OBJ_26 /* Rest */,
-				OBJ_32 /* Shield */,
-				OBJ_36 /* Sword.swift */,
-				OBJ_37 /* Types */,
-				OBJ_56 /* Utils */,
+				OBJ_37 /* Gateway */,
+				OBJ_46 /* Rest */,
+				OBJ_52 /* Shield */,
+				OBJ_56 /* Sword.swift */,
+				OBJ_57 /* Types */,
+				OBJ_76 /* Utils */,
 			);
 			name = Sword;
 			path = ".build/checkouts/Sword-1490915180762393545/Sources/Sword";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_17 /* Gateway */ = {
+		OBJ_37 /* Gateway */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_18 /* EventHandler.swift */,
-				OBJ_19 /* Eventable.swift */,
-				OBJ_20 /* Gateway.swift */,
-				OBJ_21 /* GatewayHandler.swift */,
-				OBJ_22 /* Heartbeat.swift */,
-				OBJ_23 /* Payload.swift */,
-				OBJ_24 /* Shard.swift */,
-				OBJ_25 /* ShardManager.swift */,
+				OBJ_38 /* EventHandler.swift */,
+				OBJ_39 /* Eventable.swift */,
+				OBJ_40 /* Gateway.swift */,
+				OBJ_41 /* GatewayHandler.swift */,
+				OBJ_42 /* Heartbeat.swift */,
+				OBJ_43 /* Payload.swift */,
+				OBJ_44 /* Shard.swift */,
+				OBJ_45 /* ShardManager.swift */,
 			);
 			path = Gateway;
 			sourceTree = "<group>";
 		};
-		OBJ_26 /* Rest */ = {
+		OBJ_46 /* Rest */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_27 /* EndpointInfo.swift */,
-				OBJ_28 /* Endpoints.swift */,
-				OBJ_29 /* MultipartBody.swift */,
-				OBJ_30 /* RateLimit.swift */,
-				OBJ_31 /* Request.swift */,
+				OBJ_47 /* EndpointInfo.swift */,
+				OBJ_48 /* Endpoints.swift */,
+				OBJ_49 /* MultipartBody.swift */,
+				OBJ_50 /* RateLimit.swift */,
+				OBJ_51 /* Request.swift */,
 			);
 			path = Rest;
-			sourceTree = "<group>";
-		};
-		OBJ_32 /* Shield */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_33 /* Command.swift */,
-				OBJ_34 /* Permissions.swift */,
-				OBJ_35 /* Shield.swift */,
-			);
-			path = Shield;
-			sourceTree = "<group>";
-		};
-		OBJ_37 /* Types */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_38 /* AuditLog.swift */,
-				OBJ_39 /* Channel.swift */,
-				OBJ_40 /* DM.swift */,
-				OBJ_41 /* Emoji.swift */,
-				OBJ_42 /* GroupDM.swift */,
-				OBJ_43 /* Guild.swift */,
-				OBJ_44 /* GuildCategory.swift */,
-				OBJ_45 /* GuildText.swift */,
-				OBJ_46 /* GuildVoice.swift */,
-				OBJ_47 /* Invite.swift */,
-				OBJ_48 /* Member.swift */,
-				OBJ_49 /* Message.swift */,
-				OBJ_50 /* Options.swift */,
-				OBJ_51 /* Role.swift */,
-				OBJ_52 /* Snowflake.swift */,
-				OBJ_53 /* User.swift */,
-				OBJ_54 /* VoiceState.swift */,
-				OBJ_55 /* Webhook.swift */,
-			);
-			path = Types;
 			sourceTree = "<group>";
 		};
 		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
-				946F7D8F2197A62200A2A1D3 /* config.json */,
-				946F7D9A2197B23100A2A1D3 /* config.json.example */,
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
-				OBJ_10 /* Tests */,
-				OBJ_14 /* Dependencies */,
-				OBJ_71 /* Products */,
+				OBJ_22 /* Tests */,
+				OBJ_26 /* Dependencies */,
+				OBJ_91 /* Products */,
 			);
 			name = "";
 			sourceTree = "<group>";
 		};
-		OBJ_56 /* Utils */ = {
+		OBJ_52 /* Shield */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_57 /* Bucket.swift */,
-				OBJ_58 /* Enums.swift */,
-				OBJ_59 /* Error.swift */,
-				OBJ_60 /* Imageable.swift */,
-				OBJ_61 /* JSON.swift */,
-				OBJ_62 /* Log.swift */,
-				OBJ_63 /* Updatable.swift */,
-				OBJ_64 /* Utils.swift */,
+				OBJ_53 /* Command.swift */,
+				OBJ_54 /* Permissions.swift */,
+				OBJ_55 /* Shield.swift */,
 			);
-			path = Utils;
+			path = Shield;
 			sourceTree = "<group>";
 		};
-		OBJ_66 /* Starscream 3.0.5 */ = {
+		OBJ_57 /* Types */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_67 /* Package.swift */,
-				OBJ_68 /* Compression.swift */,
-				OBJ_69 /* SSLSecurity.swift */,
-				OBJ_70 /* WebSocket.swift */,
+				OBJ_58 /* AuditLog.swift */,
+				OBJ_59 /* Channel.swift */,
+				OBJ_60 /* DM.swift */,
+				OBJ_61 /* Emoji.swift */,
+				OBJ_62 /* GroupDM.swift */,
+				OBJ_63 /* Guild.swift */,
+				OBJ_64 /* GuildCategory.swift */,
+				OBJ_65 /* GuildText.swift */,
+				OBJ_66 /* GuildVoice.swift */,
+				OBJ_67 /* Invite.swift */,
+				OBJ_68 /* Member.swift */,
+				OBJ_69 /* Message.swift */,
+				OBJ_70 /* Options.swift */,
+				OBJ_71 /* Role.swift */,
+				OBJ_72 /* Snowflake.swift */,
+				OBJ_73 /* User.swift */,
+				OBJ_74 /* VoiceState.swift */,
+				OBJ_75 /* Webhook.swift */,
 			);
-			name = "Starscream 3.0.5";
-			path = ".build/checkouts/Starscream.git-9054841884892542600/Sources";
-			sourceTree = SOURCE_ROOT;
+			path = Types;
+			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
@@ -455,45 +467,83 @@
 			name = Sources;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_71 /* Products */ = {
+		OBJ_76 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				"DuetBot::DuetBotTests::Product" /* DuetBotTests.xctest */,
-				"Sword::Sword::Product" /* Sword.framework */,
-				"DuetBot::DuetBot::Product" /* DuetBot */,
-				"Starscream::Starscream::Product" /* Starscream.framework */,
+				OBJ_77 /* Bucket.swift */,
+				OBJ_78 /* Enums.swift */,
+				OBJ_79 /* Error.swift */,
+				OBJ_80 /* Imageable.swift */,
+				OBJ_81 /* JSON.swift */,
+				OBJ_82 /* Log.swift */,
+				OBJ_83 /* Updatable.swift */,
+				OBJ_84 /* Utils.swift */,
 			);
-			name = Products;
-			sourceTree = BUILT_PRODUCTS_DIR;
+			path = Utils;
+			sourceTree = "<group>";
 		};
 		OBJ_8 /* DuetBot */ = {
 			isa = PBXGroup;
 			children = (
-				946F7D8A21979BE500A2A1D3 /* Core */,
-				946F7D962197B1F700A2A1D3 /* Extensions */,
-				946F7D8921979BDE00A2A1D3 /* Routines */,
-				OBJ_9 /* main.swift */,
+				OBJ_9 /* Core */,
+				OBJ_13 /* Extensions */,
+				OBJ_16 /* Routines */,
+				OBJ_21 /* main.swift */,
 			);
 			name = DuetBot;
 			path = Sources/DuetBot;
 			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_86 /* Starscream 3.0.5 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_87 /* Package.swift */,
+				OBJ_88 /* Compression.swift */,
+				OBJ_89 /* SSLSecurity.swift */,
+				OBJ_90 /* WebSocket.swift */,
+			);
+			name = "Starscream 3.0.5";
+			path = ".build/checkouts/Starscream.git-9054841884892542600/Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* Bot.swift */,
+				OBJ_11 /* Command.swift */,
+				OBJ_12 /* Config.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		OBJ_91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"Starscream::Starscream::Product" /* Starscream.framework */,
+				"Sword::Sword::Product" /* Sword.framework */,
+				"DuetBot::DuetBot::Product" /* DuetBot */,
+				"Raptor::Raptor::Product" /* Raptor.framework */,
+				"DuetBot::DuetBotTests::Product" /* DuetBotTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
 		"DuetBot::DuetBot" /* DuetBot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_77 /* Build configuration list for PBXNativeTarget "DuetBot" */;
+			buildConfigurationList = OBJ_98 /* Build configuration list for PBXNativeTarget "DuetBot" */;
 			buildPhases = (
-				OBJ_80 /* Sources */,
-				OBJ_82 /* Frameworks */,
-				946F7D922197A7A800A2A1D3 /* CopyFiles */,
+				OBJ_101 /* Sources */,
+				OBJ_111 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_85 /* PBXTargetDependency */,
-				OBJ_87 /* PBXTargetDependency */,
+				OBJ_115 /* PBXTargetDependency */,
+				OBJ_117 /* PBXTargetDependency */,
+				OBJ_119 /* PBXTargetDependency */,
 			);
 			name = DuetBot;
 			productName = DuetBot;
@@ -502,17 +552,18 @@
 		};
 		"DuetBot::DuetBotTests" /* DuetBotTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_101 /* Build configuration list for PBXNativeTarget "DuetBotTests" */;
+			buildConfigurationList = OBJ_133 /* Build configuration list for PBXNativeTarget "DuetBotTests" */;
 			buildPhases = (
-				OBJ_104 /* Sources */,
-				OBJ_107 /* Frameworks */,
+				OBJ_136 /* Sources */,
+				OBJ_139 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_110 /* PBXTargetDependency */,
-				OBJ_111 /* PBXTargetDependency */,
-				OBJ_112 /* PBXTargetDependency */,
+				OBJ_143 /* PBXTargetDependency */,
+				OBJ_144 /* PBXTargetDependency */,
+				OBJ_145 /* PBXTargetDependency */,
+				OBJ_146 /* PBXTargetDependency */,
 			);
 			name = DuetBotTests;
 			productName = DuetBotTests;
@@ -521,9 +572,9 @@
 		};
 		"DuetBot::SwiftPMPackageDescription" /* DuetBotPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_90 /* Build configuration list for PBXNativeTarget "DuetBotPackageDescription" */;
+			buildConfigurationList = OBJ_122 /* Build configuration list for PBXNativeTarget "DuetBotPackageDescription" */;
 			buildPhases = (
-				OBJ_93 /* Sources */,
+				OBJ_125 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -533,12 +584,42 @@
 			productName = DuetBotPackageDescription;
 			productType = "com.apple.product-type.framework";
 		};
+		"Raptor::Raptor" /* Raptor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_147 /* Build configuration list for PBXNativeTarget "Raptor" */;
+			buildPhases = (
+				OBJ_150 /* Sources */,
+				OBJ_153 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Raptor;
+			productName = Raptor;
+			productReference = "Raptor::Raptor::Product" /* Raptor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Raptor::SwiftPMPackageDescription" /* RaptorPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_155 /* Build configuration list for PBXNativeTarget "RaptorPackageDescription" */;
+			buildPhases = (
+				OBJ_158 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaptorPackageDescription;
+			productName = RaptorPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
 		"Starscream::Starscream" /* Starscream */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_113 /* Build configuration list for PBXNativeTarget "Starscream" */;
+			buildConfigurationList = OBJ_160 /* Build configuration list for PBXNativeTarget "Starscream" */;
 			buildPhases = (
-				OBJ_116 /* Sources */,
-				OBJ_120 /* Frameworks */,
+				OBJ_163 /* Sources */,
+				OBJ_167 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -551,9 +632,9 @@
 		};
 		"Starscream::SwiftPMPackageDescription" /* StarscreamPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_122 /* Build configuration list for PBXNativeTarget "StarscreamPackageDescription" */;
+			buildConfigurationList = OBJ_169 /* Build configuration list for PBXNativeTarget "StarscreamPackageDescription" */;
 			buildPhases = (
-				OBJ_125 /* Sources */,
+				OBJ_172 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -565,9 +646,9 @@
 		};
 		"Sword::SwiftPMPackageDescription" /* SwordPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_178 /* Build configuration list for PBXNativeTarget "SwordPackageDescription" */;
+			buildConfigurationList = OBJ_225 /* Build configuration list for PBXNativeTarget "SwordPackageDescription" */;
 			buildPhases = (
-				OBJ_181 /* Sources */,
+				OBJ_228 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -579,15 +660,15 @@
 		};
 		"Sword::Sword" /* Sword */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_127 /* Build configuration list for PBXNativeTarget "Sword" */;
+			buildConfigurationList = OBJ_174 /* Build configuration list for PBXNativeTarget "Sword" */;
 			buildPhases = (
-				OBJ_130 /* Sources */,
-				OBJ_174 /* Frameworks */,
+				OBJ_177 /* Sources */,
+				OBJ_221 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_176 /* PBXTargetDependency */,
+				OBJ_223 /* PBXTargetDependency */,
 			);
 			name = Sword;
 			productName = Sword;
@@ -610,7 +691,7 @@
 				en,
 			);
 			mainGroup = OBJ_5 /*  */;
-			productRefGroup = OBJ_71 /* Products */;
+			productRefGroup = OBJ_91 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -618,6 +699,8 @@
 				"DuetBot::SwiftPMPackageDescription" /* DuetBotPackageDescription */,
 				"DuetBot::DuetBotPackageTests::ProductTarget" /* DuetBotPackageTests */,
 				"DuetBot::DuetBotTests" /* DuetBotTests */,
+				"Raptor::Raptor" /* Raptor */,
+				"Raptor::SwiftPMPackageDescription" /* RaptorPackageDescription */,
 				"Starscream::Starscream" /* Starscream */,
 				"Starscream::SwiftPMPackageDescription" /* StarscreamPackageDescription */,
 				"Sword::Sword" /* Sword */,
@@ -627,22 +710,19 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_104 /* Sources */ = {
+		OBJ_101 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_105 /* DuetBotTests.swift in Sources */,
-				OBJ_106 /* XCTestManifests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_116 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_117 /* Compression.swift in Sources */,
-				OBJ_118 /* SSLSecurity.swift in Sources */,
-				OBJ_119 /* WebSocket.swift in Sources */,
+				OBJ_102 /* Bot.swift in Sources */,
+				OBJ_103 /* Command.swift in Sources */,
+				OBJ_104 /* Config.swift in Sources */,
+				OBJ_105 /* Snowflake.swift in Sources */,
+				OBJ_106 /* InsultRoutine.swift in Sources */,
+				OBJ_107 /* MinecraftMessageRoutine.swift in Sources */,
+				OBJ_108 /* PingPongRoutine.swift in Sources */,
+				OBJ_109 /* Routine.swift in Sources */,
+				OBJ_110 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,225 +734,182 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_130 /* Sources */ = {
+		OBJ_136 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_131 /* EventHandler.swift in Sources */,
-				OBJ_132 /* Eventable.swift in Sources */,
-				OBJ_133 /* Gateway.swift in Sources */,
-				OBJ_134 /* GatewayHandler.swift in Sources */,
-				OBJ_135 /* Heartbeat.swift in Sources */,
-				OBJ_136 /* Payload.swift in Sources */,
-				OBJ_137 /* Shard.swift in Sources */,
-				OBJ_138 /* ShardManager.swift in Sources */,
-				OBJ_139 /* EndpointInfo.swift in Sources */,
-				OBJ_140 /* Endpoints.swift in Sources */,
-				OBJ_141 /* MultipartBody.swift in Sources */,
-				OBJ_142 /* RateLimit.swift in Sources */,
-				OBJ_143 /* Request.swift in Sources */,
-				OBJ_144 /* Command.swift in Sources */,
-				OBJ_145 /* Permissions.swift in Sources */,
-				OBJ_146 /* Shield.swift in Sources */,
-				OBJ_147 /* Sword.swift in Sources */,
-				OBJ_148 /* AuditLog.swift in Sources */,
-				OBJ_149 /* Channel.swift in Sources */,
-				OBJ_150 /* DM.swift in Sources */,
-				OBJ_151 /* Emoji.swift in Sources */,
-				OBJ_152 /* GroupDM.swift in Sources */,
-				OBJ_153 /* Guild.swift in Sources */,
-				OBJ_154 /* GuildCategory.swift in Sources */,
-				OBJ_155 /* GuildText.swift in Sources */,
-				OBJ_156 /* GuildVoice.swift in Sources */,
-				OBJ_157 /* Invite.swift in Sources */,
-				OBJ_158 /* Member.swift in Sources */,
-				OBJ_159 /* Message.swift in Sources */,
-				OBJ_160 /* Options.swift in Sources */,
-				OBJ_161 /* Role.swift in Sources */,
-				OBJ_162 /* Snowflake.swift in Sources */,
-				OBJ_163 /* User.swift in Sources */,
-				OBJ_164 /* VoiceState.swift in Sources */,
-				OBJ_165 /* Webhook.swift in Sources */,
-				OBJ_166 /* Bucket.swift in Sources */,
-				OBJ_167 /* Enums.swift in Sources */,
-				OBJ_168 /* Error.swift in Sources */,
-				OBJ_169 /* Imageable.swift in Sources */,
-				OBJ_170 /* JSON.swift in Sources */,
-				OBJ_171 /* Log.swift in Sources */,
-				OBJ_172 /* Updatable.swift in Sources */,
-				OBJ_173 /* Utils.swift in Sources */,
+				OBJ_137 /* DuetBotTests.swift in Sources */,
+				OBJ_138 /* XCTestManifests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_181 /* Sources */ = {
+		OBJ_150 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_182 /* Package.swift in Sources */,
+				OBJ_151 /* srcon.cpp in Sources */,
+				OBJ_152 /* umbrella.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_80 /* Sources */ = {
+		OBJ_158 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				946F7D862197978300A2A1D3 /* Bot.swift in Sources */,
-				OBJ_81 /* main.swift in Sources */,
-				946F7D8821979BDB00A2A1D3 /* Routine.swift in Sources */,
-				946F7D912197A64B00A2A1D3 /* Config.swift in Sources */,
-				946F7D992197B20C00A2A1D3 /* Snowflake.swift in Sources */,
-				946F7D842197976F00A2A1D3 /* Command.swift in Sources */,
-				946F7D8C21979C1400A2A1D3 /* PingPongRoutine.swift in Sources */,
-				946F7D8E21979D4E00A2A1D3 /* InsultRoutine.swift in Sources */,
+				OBJ_159 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_93 /* Sources */ = {
+		OBJ_163 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_94 /* Package.swift in Sources */,
+				OBJ_164 /* Compression.swift in Sources */,
+				OBJ_165 /* SSLSecurity.swift in Sources */,
+				OBJ_166 /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_173 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_178 /* EventHandler.swift in Sources */,
+				OBJ_179 /* Eventable.swift in Sources */,
+				OBJ_180 /* Gateway.swift in Sources */,
+				OBJ_181 /* GatewayHandler.swift in Sources */,
+				OBJ_182 /* Heartbeat.swift in Sources */,
+				OBJ_183 /* Payload.swift in Sources */,
+				OBJ_184 /* Shard.swift in Sources */,
+				OBJ_185 /* ShardManager.swift in Sources */,
+				OBJ_186 /* EndpointInfo.swift in Sources */,
+				OBJ_187 /* Endpoints.swift in Sources */,
+				OBJ_188 /* MultipartBody.swift in Sources */,
+				OBJ_189 /* RateLimit.swift in Sources */,
+				OBJ_190 /* Request.swift in Sources */,
+				OBJ_191 /* Command.swift in Sources */,
+				OBJ_192 /* Permissions.swift in Sources */,
+				OBJ_193 /* Shield.swift in Sources */,
+				OBJ_194 /* Sword.swift in Sources */,
+				OBJ_195 /* AuditLog.swift in Sources */,
+				OBJ_196 /* Channel.swift in Sources */,
+				OBJ_197 /* DM.swift in Sources */,
+				OBJ_198 /* Emoji.swift in Sources */,
+				OBJ_199 /* GroupDM.swift in Sources */,
+				OBJ_200 /* Guild.swift in Sources */,
+				OBJ_201 /* GuildCategory.swift in Sources */,
+				OBJ_202 /* GuildText.swift in Sources */,
+				OBJ_203 /* GuildVoice.swift in Sources */,
+				OBJ_204 /* Invite.swift in Sources */,
+				OBJ_205 /* Member.swift in Sources */,
+				OBJ_206 /* Message.swift in Sources */,
+				OBJ_207 /* Options.swift in Sources */,
+				OBJ_208 /* Role.swift in Sources */,
+				OBJ_209 /* Snowflake.swift in Sources */,
+				OBJ_210 /* User.swift in Sources */,
+				OBJ_211 /* VoiceState.swift in Sources */,
+				OBJ_212 /* Webhook.swift in Sources */,
+				OBJ_213 /* Bucket.swift in Sources */,
+				OBJ_214 /* Enums.swift in Sources */,
+				OBJ_215 /* Error.swift in Sources */,
+				OBJ_216 /* Imageable.swift in Sources */,
+				OBJ_217 /* JSON.swift in Sources */,
+				OBJ_218 /* Log.swift in Sources */,
+				OBJ_219 /* Updatable.swift in Sources */,
+				OBJ_220 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_229 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_110 /* PBXTargetDependency */ = {
+		OBJ_115 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "DuetBot::DuetBot" /* DuetBot */;
-			targetProxy = 946F7D7F2197976600A2A1D3 /* PBXContainerItemProxy */;
+			target = "Raptor::Raptor" /* Raptor */;
+			targetProxy = 946F7E3C2198117700A2A1D3 /* PBXContainerItemProxy */;
 		};
-		OBJ_111 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Sword::Sword" /* Sword */;
-			targetProxy = 946F7D802197976600A2A1D3 /* PBXContainerItemProxy */;
-		};
-		OBJ_112 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Starscream::Starscream" /* Starscream */;
-			targetProxy = 946F7D812197976600A2A1D3 /* PBXContainerItemProxy */;
-		};
-		OBJ_176 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Starscream::Starscream" /* Starscream */;
-			targetProxy = 946F7D7C2197976600A2A1D3 /* PBXContainerItemProxy */;
-		};
-		OBJ_85 /* PBXTargetDependency */ = {
+		OBJ_117 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Sword::Sword" /* Sword */;
-			targetProxy = 946F7D7D2197976600A2A1D3 /* PBXContainerItemProxy */;
+			targetProxy = 946F7E3D2198117700A2A1D3 /* PBXContainerItemProxy */;
 		};
-		OBJ_87 /* PBXTargetDependency */ = {
+		OBJ_119 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Starscream::Starscream" /* Starscream */;
-			targetProxy = 946F7D7E2197976600A2A1D3 /* PBXContainerItemProxy */;
+			targetProxy = 946F7E3E2198117700A2A1D3 /* PBXContainerItemProxy */;
 		};
-		OBJ_99 /* PBXTargetDependency */ = {
+		OBJ_131 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "DuetBot::DuetBotTests" /* DuetBotTests */;
-			targetProxy = 946F7D822197976600A2A1D3 /* PBXContainerItemProxy */;
+			targetProxy = 946F7E432198117800A2A1D3 /* PBXContainerItemProxy */;
+		};
+		OBJ_143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "DuetBot::DuetBot" /* DuetBot */;
+			targetProxy = 946F7E3F2198117700A2A1D3 /* PBXContainerItemProxy */;
+		};
+		OBJ_144 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Raptor::Raptor" /* Raptor */;
+			targetProxy = 946F7E402198117700A2A1D3 /* PBXContainerItemProxy */;
+		};
+		OBJ_145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Sword::Sword" /* Sword */;
+			targetProxy = 946F7E412198117700A2A1D3 /* PBXContainerItemProxy */;
+		};
+		OBJ_146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Starscream::Starscream" /* Starscream */;
+			targetProxy = 946F7E422198117700A2A1D3 /* PBXContainerItemProxy */;
+		};
+		OBJ_223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Starscream::Starscream" /* Starscream */;
+			targetProxy = 946F7E3B2198117700A2A1D3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_102 /* Debug */ = {
+		OBJ_100 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Raptor--6116708156360983641/Raptor/Sources/include",
 					"$(SRCROOT)/.build/checkouts/common-crypto-spm.git-6942292348695836942",
 					"$(SRCROOT)/.build/checkouts/zlib-spm.git--6647400130614265439",
+					"$(SRCROOT)/DuetBot.xcodeproj/GeneratedModuleMap/Raptor",
 				);
-				INFOPLIST_FILE = DuetBot.xcodeproj/DuetBotTests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				INFOPLIST_FILE = DuetBot.xcodeproj/DuetBot_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/DuetBot.xcodeproj/GeneratedModuleMap/Raptor/module.modulemap";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
 				SWIFT_VERSION = 4.0;
-				TARGET_NAME = DuetBotTests;
-			};
-			name = Debug;
-		};
-		OBJ_103 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/.build/checkouts/common-crypto-spm.git-6942292348695836942",
-					"$(SRCROOT)/.build/checkouts/zlib-spm.git--6647400130614265439",
-				);
-				INFOPLIST_FILE = DuetBot.xcodeproj/DuetBotTests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = DuetBotTests;
-			};
-			name = Release;
-		};
-		OBJ_114 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/.build/checkouts/common-crypto-spm.git-6942292348695836942",
-					"$(SRCROOT)/.build/checkouts/zlib-spm.git--6647400130614265439",
-				);
-				INFOPLIST_FILE = DuetBot.xcodeproj/Starscream_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Starscream;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = Starscream;
-			};
-			name = Debug;
-		};
-		OBJ_115 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/.build/checkouts/common-crypto-spm.git-6942292348695836942",
-					"$(SRCROOT)/.build/checkouts/zlib-spm.git--6647400130614265439",
-				);
-				INFOPLIST_FILE = DuetBot.xcodeproj/Starscream_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Starscream;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = Starscream;
+				TARGET_NAME = DuetBot;
 			};
 			name = Release;
 		};
@@ -894,7 +931,211 @@
 			};
 			name = Release;
 		};
-		OBJ_128 /* Debug */ = {
+		OBJ_129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Raptor--6116708156360983641/Raptor/Sources/include",
+					"$(SRCROOT)/.build/checkouts/common-crypto-spm.git-6942292348695836942",
+					"$(SRCROOT)/.build/checkouts/zlib-spm.git--6647400130614265439",
+					"$(SRCROOT)/DuetBot.xcodeproj/GeneratedModuleMap/Raptor",
+				);
+				INFOPLIST_FILE = DuetBot.xcodeproj/DuetBotTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/DuetBot.xcodeproj/GeneratedModuleMap/Raptor/module.modulemap";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = DuetBotTests;
+			};
+			name = Debug;
+		};
+		OBJ_135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Raptor--6116708156360983641/Raptor/Sources/include",
+					"$(SRCROOT)/.build/checkouts/common-crypto-spm.git-6942292348695836942",
+					"$(SRCROOT)/.build/checkouts/zlib-spm.git--6647400130614265439",
+					"$(SRCROOT)/DuetBot.xcodeproj/GeneratedModuleMap/Raptor",
+				);
+				INFOPLIST_FILE = DuetBot.xcodeproj/DuetBotTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/DuetBot.xcodeproj/GeneratedModuleMap/Raptor/module.modulemap";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = DuetBotTests;
+			};
+			name = Release;
+		};
+		OBJ_148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Raptor--6116708156360983641/Raptor/Sources/include",
+				);
+				INFOPLIST_FILE = DuetBot.xcodeproj/Raptor_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Raptor;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Raptor;
+			};
+			name = Debug;
+		};
+		OBJ_149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Raptor--6116708156360983641/Raptor/Sources/include",
+				);
+				INFOPLIST_FILE = DuetBot.xcodeproj/Raptor_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Raptor;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Raptor;
+			};
+			name = Release;
+		};
+		OBJ_156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/common-crypto-spm.git-6942292348695836942",
+					"$(SRCROOT)/.build/checkouts/zlib-spm.git--6647400130614265439",
+				);
+				INFOPLIST_FILE = DuetBot.xcodeproj/Starscream_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Starscream;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Starscream;
+			};
+			name = Debug;
+		};
+		OBJ_162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/common-crypto-spm.git-6942292348695836942",
+					"$(SRCROOT)/.build/checkouts/zlib-spm.git--6647400130614265439",
+				);
+				INFOPLIST_FILE = DuetBot.xcodeproj/Starscream_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Starscream;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Starscream;
+			};
+			name = Release;
+		};
+		OBJ_170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_175 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -921,7 +1162,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_129 /* Release */ = {
+		OBJ_176 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -948,7 +1189,7 @@
 			};
 			name = Release;
 		};
-		OBJ_179 /* Debug */ = {
+		OBJ_226 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -957,7 +1198,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_180 /* Release */ = {
+		OBJ_227 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1008,7 +1249,7 @@
 			};
 			name = Release;
 		};
-		OBJ_78 /* Debug */ = {
+		OBJ_99 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1017,98 +1258,27 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Raptor--6116708156360983641/Raptor/Sources/include",
 					"$(SRCROOT)/.build/checkouts/common-crypto-spm.git-6942292348695836942",
 					"$(SRCROOT)/.build/checkouts/zlib-spm.git--6647400130614265439",
+					"$(SRCROOT)/DuetBot.xcodeproj/GeneratedModuleMap/Raptor",
 				);
 				INFOPLIST_FILE = DuetBot.xcodeproj/DuetBot_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "SWIFT_PACKAGE DEBUG";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/DuetBot.xcodeproj/GeneratedModuleMap/Raptor/module.modulemap";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = DuetBot;
 			};
 			name = Debug;
-		};
-		OBJ_79 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/.build/checkouts/common-crypto-spm.git-6942292348695836942",
-					"$(SRCROOT)/.build/checkouts/zlib-spm.git--6647400130614265439",
-				);
-				INFOPLIST_FILE = DuetBot.xcodeproj/DuetBot_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = DuetBot;
-			};
-			name = Release;
-		};
-		OBJ_91 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		OBJ_92 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		OBJ_97 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		OBJ_98 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_101 /* Build configuration list for PBXNativeTarget "DuetBotTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_102 /* Debug */,
-				OBJ_103 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_113 /* Build configuration list for PBXNativeTarget "Starscream" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_114 /* Debug */,
-				OBJ_115 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_122 /* Build configuration list for PBXNativeTarget "StarscreamPackageDescription" */ = {
+		OBJ_122 /* Build configuration list for PBXNativeTarget "DuetBotPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_123 /* Debug */,
@@ -1117,20 +1287,65 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_127 /* Build configuration list for PBXNativeTarget "Sword" */ = {
+		OBJ_128 /* Build configuration list for PBXAggregateTarget "DuetBotPackageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_128 /* Debug */,
-				OBJ_129 /* Release */,
+				OBJ_129 /* Debug */,
+				OBJ_130 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_178 /* Build configuration list for PBXNativeTarget "SwordPackageDescription" */ = {
+		OBJ_133 /* Build configuration list for PBXNativeTarget "DuetBotTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_179 /* Debug */,
-				OBJ_180 /* Release */,
+				OBJ_134 /* Debug */,
+				OBJ_135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_147 /* Build configuration list for PBXNativeTarget "Raptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_148 /* Debug */,
+				OBJ_149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_155 /* Build configuration list for PBXNativeTarget "RaptorPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_156 /* Debug */,
+				OBJ_157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_160 /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_161 /* Debug */,
+				OBJ_162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_169 /* Build configuration list for PBXNativeTarget "StarscreamPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_170 /* Debug */,
+				OBJ_171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_174 /* Build configuration list for PBXNativeTarget "Sword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_175 /* Debug */,
+				OBJ_176 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1144,29 +1359,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_77 /* Build configuration list for PBXNativeTarget "DuetBot" */ = {
+		OBJ_225 /* Build configuration list for PBXNativeTarget "SwordPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_78 /* Debug */,
-				OBJ_79 /* Release */,
+				OBJ_226 /* Debug */,
+				OBJ_227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_90 /* Build configuration list for PBXNativeTarget "DuetBotPackageDescription" */ = {
+		OBJ_98 /* Build configuration list for PBXNativeTarget "DuetBot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_91 /* Debug */,
-				OBJ_92 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_96 /* Build configuration list for PBXAggregateTarget "DuetBotPackageTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_97 /* Debug */,
-				OBJ_98 /* Release */,
+				OBJ_99 /* Debug */,
+				OBJ_100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

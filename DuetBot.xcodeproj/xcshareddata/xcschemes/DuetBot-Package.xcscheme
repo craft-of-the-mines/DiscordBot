@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "Starscream::Starscream"
+               BuildableName = "Starscream.framework"
+               BlueprintName = "Starscream"
+               ReferencedContainer = "container:DuetBot.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "Sword::Sword"
                BuildableName = "Sword.framework"
                BlueprintName = "Sword"
@@ -42,9 +56,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Starscream::Starscream"
-               BuildableName = "Starscream.framework"
-               BlueprintName = "Starscream"
+               BlueprintIdentifier = "Raptor::Raptor"
+               BuildableName = "Raptor.framework"
+               BlueprintName = "Raptor"
                ReferencedContainer = "container:DuetBot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -83,9 +97,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "Sword::Sword"
-            BuildableName = "Sword.framework"
-            BlueprintName = "Sword"
+            BlueprintIdentifier = "Starscream::Starscream"
+            BuildableName = "Starscream.framework"
+            BlueprintName = "Starscream"
             ReferencedContainer = "container:DuetBot.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

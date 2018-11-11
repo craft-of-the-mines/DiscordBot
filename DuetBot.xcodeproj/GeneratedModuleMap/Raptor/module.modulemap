@@ -1,0 +1,4 @@
+module Raptor {
+    umbrella "/Users/ryan/dev/discordbot/.build/checkouts/Raptor--6116708156360983641/Raptor/Sources/include"
+    export *
+}
